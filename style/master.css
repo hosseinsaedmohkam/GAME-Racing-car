@@ -1,0 +1,133 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   background-image: url(../img/vecteezy_photo-road-clear-sky-desert-mountains-landscape-realistic_26797561.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+
+}
+
+
+.hide {
+   visibility: hidden;
+}
+
+.startscreen {
+   cursor: pointer;
+   color: rgb(98, 2, 26);
+   border: 2px solid rgb(6, 0, 0);
+   width: 90vw;
+   max-width: 400px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 2px;
+   background-image: url(../img/31.jpg);
+   background-size: cover;
+   z-index: 9999;
+   font-size: 40px;
+   position: absolute;
+   bottom: -30px;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+
+}
+
+.car {
+   position: absolute;
+   width: 60px;
+   height: 110px;
+   z-index: 9999;
+   bottom: 150px;
+   left: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url(../img/99.png);
+   background-size: cover;
+   background-position: center;
+   border-radius: 30px;
+}
+
+.game {
+   display: flex;
+
+}
+
+#gameArea {
+   background-color: rgb(13, 12, 12);
+   position: absolute;
+   width: 90vw;
+   max-width: 400px;
+   height: 100%;
+   overflow: hidden;
+   border: 5px solid rgb(2, 2, 2);
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.line {
+   position: absolute;
+   width: 10px;
+   height: 100px;
+   background-color: aliceblue;
+   margin-left: 195px;
+
+}
+
+.score {
+   width: 90vw;
+   max-width: 400px;
+   height: 70px;
+   background-color: darkgreen;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 28px;
+   text-align: center;
+   font-style: italic;
+   color: burlywood;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   z-index: 9999;
+   position: absolute;
+   left: 50%;
+   top: 5%;
+   transform: translate(-50%, -50%);
+
+
+}
+
+.enemy {
+   position: absolute;
+   width: 60px;
+   height: 110px;
+   bottom: 100px;
+   left: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-position: center;
+   border-radius: 30px;
+   background-image: url(../img/2221.png);
+   background-position: center;
+   background-size: cover;
+}
+
+#myAudio {
+   display: none;
+}
