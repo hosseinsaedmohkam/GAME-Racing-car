@@ -130,4 +130,33 @@ body {
 
 #myAudio {
    display: none;
+
+}
+
+.hossein {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 999;
+}
+
+.hossein figure {
+  position: fixed;
+  bottom: 15px;   /* پایین */
+  left: 15px;     /* سمت چپ */
+  text-align: center;
+}
+
+.hossein figure img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.hossein figure img:hover {
+  border-radius: 15px;
+  transform: scale(1.2);
 }
